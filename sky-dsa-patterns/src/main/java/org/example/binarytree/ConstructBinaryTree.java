@@ -83,6 +83,10 @@ public class ConstructBinaryTree {
         //Traverse Binary Tree
         TraversalBinaryTree traversalBinaryTree = new TraversalBinaryTree();
         traversalBinaryTree.traversal(rootPair.node);
+
+        //Find Element In Binary Tree
+        NodeToRootFindElement toRootFindElement = new NodeToRootFindElement();
+        System.out.println(toRootFindElement.findNode(rootPair.node, 30000));
     }
 
     public static int size(Node node){
